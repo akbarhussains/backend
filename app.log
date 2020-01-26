@@ -1,0 +1,127 @@
+2020-01-26 12:41:28.501  INFO 5524 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 5524 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 12:41:28.507  INFO 5524 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 12:41:29.816  INFO 5524 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 2.352 seconds (JVM running for 3.392)
+2020-01-26 12:41:29.824  INFO 5524 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 12:41:29.825 ERROR 5524 --- [main] com.rabobank.FileManager                 : Exception caught Un-Supported File Format
+2020-01-26 12:42:04.217  INFO 17188 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 17188 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 12:42:04.242  INFO 17188 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 12:42:06.442  INFO 17188 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 3.532 seconds (JVM running for 4.778)
+2020-01-26 12:42:06.500  INFO 17188 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 12:42:06.527 ERROR 17188 --- [main] com.rabobank.FileManager                 : Exception caught Un-Supported File Format
+2020-01-26 12:42:06.540 ERROR 17188 --- [main] com.rabobank.FileManager                 : Exception caught Un-Supported File Format
+2020-01-26 12:42:06.582  INFO 17188 --- [main] com.rabobank.FileManager                 : ========================Finished !!!!!!!!!====================================
+2020-01-26 12:43:31.960  INFO 19404 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 19404 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 12:43:31.971  INFO 19404 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 12:43:33.140  INFO 19404 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 2.262 seconds (JVM running for 3.813)
+2020-01-26 12:43:33.145  INFO 19404 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 12:43:33.146 ERROR 19404 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:43:33.147 ERROR 19404 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:43:33.168  INFO 19404 --- [main] com.rabobank.FileManager                 : ========================Finished !!!!!!!!!====================================
+2020-01-26 12:47:01.388  INFO 30856 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 30856 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 12:47:01.396  INFO 30856 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 12:47:02.208  INFO 30856 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.693 seconds (JVM running for 2.549)
+2020-01-26 12:47:02.213  INFO 30856 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 12:47:02.214 ERROR 30856 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:47:02.215 ERROR 30856 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:47:02.229  INFO 30856 --- [main] com.rabobank.FileManager                 : ========================Finished !!!!!!!!!====================================
+2020-01-26 12:48:55.025  INFO 21628 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 21628 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 12:48:55.042  INFO 21628 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 12:48:56.455  INFO 21628 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 2.43 seconds (JVM running for 7.321)
+2020-01-26 12:48:56.467  INFO 21628 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 12:49:49.426 ERROR 21628 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:50:07.768 ERROR 21628 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:50:07.862  INFO 21628 --- [main] com.rabobank.FileManager                 : ========================Finished !!!!!!!!!====================================
+2020-01-26 12:50:25.210  INFO 31556 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 31556 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 12:50:25.228  INFO 31556 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 12:50:26.391  INFO 31556 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 2.129 seconds (JVM running for 4.215)
+2020-01-26 12:50:26.410  INFO 31556 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 12:50:48.846 ERROR 31556 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:50:54.266 ERROR 31556 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:50:54.515  INFO 31556 --- [main] com.rabobank.FileManager                 : ========================Finished !!!!!!!!!====================================
+2020-01-26 12:51:49.543  INFO 18444 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 18444 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 12:51:49.552  INFO 18444 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 12:51:50.479  INFO 18444 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.925 seconds (JVM running for 2.726)
+2020-01-26 12:51:50.510  INFO 18444 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 12:51:50.512 ERROR 18444 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:51:50.513 ERROR 18444 --- [main] com.rabobank.FileManager                 : Exception caught java.lang.NullPointerException
+2020-01-26 12:51:50.532  INFO 18444 --- [main] com.rabobank.FileManager                 : ========================Finished !!!!!!!!!====================================
+2020-01-26 13:07:23.888  INFO 8640 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 8640 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 13:07:23.956  INFO 8640 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 13:07:25.300  INFO 8640 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 2.332 seconds (JVM running for 4.611)
+2020-01-26 13:07:25.311  INFO 8640 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 13:08:58.358  INFO 4168 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 4168 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 13:08:58.369  INFO 4168 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 13:08:58.900  INFO 4168 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.1 seconds (JVM running for 1.796)
+2020-01-26 13:08:58.914  INFO 4168 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 13:08:58.995  INFO 4168 --- [main] com.rabobank.FileManager                 : ========================Finished !!!!!!!!!====================================
+2020-01-26 16:36:39.475  INFO 2160 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 2160 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 16:36:39.495  INFO 2160 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 16:36:40.555  INFO 2160 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 6.297 seconds (JVM running for 6.897)
+2020-01-26 16:36:40.559  INFO 2160 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 16:52:29.241  INFO 20348 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 20348 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 16:52:29.273  INFO 20348 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 16:52:29.951  INFO 20348 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.157 seconds (JVM running for 1.986)
+2020-01-26 16:52:29.954  INFO 20348 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 17:04:35.895  INFO 27256 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 27256 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 17:04:35.905  INFO 27256 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 17:04:36.656  INFO 27256 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.434 seconds (JVM running for 2.149)
+2020-01-26 17:04:36.659  INFO 27256 --- [main] com.rabobank.FileManager                 : Initiated...............................
+2020-01-26 17:07:06.987  INFO 1444 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 1444 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 17:07:07.014  INFO 1444 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 17:07:07.809  INFO 1444 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.364 seconds (JVM running for 1.928)
+2020-01-26 17:08:59.537  INFO 18368 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 18368 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 17:08:59.585  INFO 18368 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 17:09:00.509  INFO 18368 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.593 seconds (JVM running for 2.372)
+2020-01-26 17:09:00.558  INFO 18368 --- [main] com.rabobank.process.FileManager         : Initiated...............................
+2020-01-26 17:12:54.782  INFO 9980 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 9980 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 17:12:54.789  INFO 9980 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 17:12:55.402 ERROR 9980 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileManager' defined in file [C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor\target\classes\com\rabobank\process\FileManager.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'getRecords': Only no-arg methods may be annotated with @Scheduled
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.4.RELEASE.jar:2.2.4.RELEASE]
+	at com.rabobank.BsLineItemExtractorApplication.main(BsLineItemExtractorApplication.java:43) [classes/:na]
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'getRecords': Only no-arg methods may be annotated with @Scheduled
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:499) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:362) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at java.lang.Iterable.forEach(Unknown Source) ~[na:1.8.0_211]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:362) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at java.util.LinkedHashMap.forEach(Unknown Source) ~[na:1.8.0_211]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:361) ~[spring-context-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595) ~[spring-beans-5.2.3.RELEASE.jar:5.2.3.RELEASE]
+	... 14 common frames omitted
+
+2020-01-26 19:29:06.183  INFO 27636 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 27636 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 19:29:06.246  INFO 27636 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 19:29:11.509  INFO 27636 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 11.302 seconds (JVM running for 13.562)
+2020-01-26 19:29:11.512  INFO 27636 --- [main] com.rabobank.process.FileManager         : Initiated...............................
+2020-01-26 19:29:11.822  INFO 27636 --- [main] com.rabobank.process.FileManager         : ========================Finished !!!!!!!!!====================================
+2020-01-26 19:31:43.094  INFO 21948 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 21948 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 19:31:43.124  INFO 21948 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 19:31:43.675  INFO 21948 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.014 seconds (JVM running for 2.03)
+2020-01-26 19:31:43.698  INFO 21948 --- [main] com.rabobank.process.FileManager         : Initiated...............................
+2020-01-26 19:31:43.742  INFO 21948 --- [main] com.rabobank.process.FileManager         : ========================Finished !!!!!!!!!====================================
+2020-01-26 19:33:04.714  INFO 120 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 120 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 19:33:04.731  INFO 120 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 19:33:05.464  INFO 120 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.319 seconds (JVM running for 2.063)
+2020-01-26 19:33:05.478  INFO 120 --- [main] com.rabobank.process.FileManager         : Initiated...............................
+2020-01-26 19:33:05.514  INFO 120 --- [main] com.rabobank.process.FileManager         : ========================Finished !!!!!!!!!====================================
+2020-01-26 19:37:01.730  INFO 24120 --- [main] c.r.BsLineItemExtractorApplication       : Starting BsLineItemExtractorApplication on DESKTOP-M1LHJ05 with PID 24120 (started by Jaheen Afsar in C:\Users\Jaheen Afsar\Desktop\assignment\BSLineItemExtractor)
+2020-01-26 19:37:01.765  INFO 24120 --- [main] c.r.BsLineItemExtractorApplication       : No active profile set, falling back to default profiles: default
+2020-01-26 19:37:02.257  INFO 24120 --- [main] c.r.BsLineItemExtractorApplication       : Started BsLineItemExtractorApplication in 1.05 seconds (JVM running for 1.747)
+2020-01-26 19:37:02.264  INFO 24120 --- [main] com.rabobank.process.FileManager         : Initiated...............................
+2020-01-26 19:37:02.303  INFO 24120 --- [main] com.rabobank.process.FileManager         : ========================Finished !!!!!!!!!====================================
