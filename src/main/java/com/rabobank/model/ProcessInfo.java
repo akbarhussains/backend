@@ -2,7 +2,11 @@ package com.rabobank.model;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Model class for keeping process output
+ * @author Akbar Hussain
+ *
+ */
 public class ProcessInfo {
 
 	List<BSLineItem> records=new ArrayList<BSLineItem>();

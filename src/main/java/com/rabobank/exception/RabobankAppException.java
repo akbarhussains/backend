@@ -1,5 +1,10 @@
 package com.rabobank.exception;
 
+/**
+ * Application based exception class
+ * @author Akbar Hussain
+ *
+ */
 public class RabobankAppException extends Exception{
 
 	

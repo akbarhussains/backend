@@ -4,14 +4,13 @@ package com.rabobank.processor;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.concurrent.Future;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import org.springframework.scheduling.annotation.Async;
-import org.springframework.scheduling.annotation.AsyncResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
@@ -23,11 +22,17 @@ import com.rabobank.model.ProcessInfo;
 import com.rabobank.model.RecordStatus;
 
 @Component
+/**
+ * Implementation class for file processor to handle xml
+ * @author Jaheen Afsar
+ *
+ */
 public class XMLFileProcessor extends DefaultHandler implements FileProcessor{
 	
 	String qName=null;
 	BSLineItem lineItem=null;
 	ProcessInfo records=null;
+	private static Logger logger=LoggerFactory.getLogger(XMLFileProcessor.class);
 
 	public XMLFileProcessor() {
 		records=new ProcessInfo();
@@ -38,6 +43,7 @@ public class XMLFileProcessor extends DefaultHandler implements FileProcessor{
 	
 	if(qName.equalsIgnoreCase("record")){
 		String ref= attributes.getValue("reference");
+		ref=ref.trim().length()>0?ref.trim():"0";
 		lineItem=new BSLineItem();
 		lineItem.setReferenceId(Long.parseLong(ref));
 	}
@@ -75,15 +81,15 @@ public class XMLFileProcessor extends DefaultHandler implements FileProcessor{
  public void endElement(String uri, String localName, String qName) {
 	 
 	if(qName.equalsIgnoreCase("record")) {
-	
-		double endBalance=lineItem.getStartBalance()+lineItem.getMutation();
-		endBalance=new BigDecimal(endBalance).setScale(2, RoundingMode.HALF_UP).doubleValue();
-		if(endBalance!=lineItem.getEndBalance()) 
-			lineItem.setRecordStatus(RecordStatus.INVALID_END_BALANCE);
-		
-	    records.getRecords().add(lineItem);
-	    System.out.println("processing xml");
-		
+		if(lineItem.getReferenceId()!=0) {
+			double endBalance=lineItem.getStartBalance()+lineItem.getMutation();
+			endBalance=new BigDecimal(endBalance).setScale(2, RoundingMode.HALF_UP).doubleValue();
+			if(endBalance!=lineItem.getEndBalance()) 
+				lineItem.setRecordStatus(RecordStatus.INVALID_END_BALANCE);
+			
+		    records.getRecords().add(lineItem);
+	 
+		}
 	}
 	
  }
@@ -99,11 +105,13 @@ public ProcessInfo process(String file)throws RabobankAppException {
 	SAXParserFactory factory = SAXParserFactory.newInstance();
 	
 	try {
+		
+		logger.info(" starting the extraction from xml ");
 		SAXParser saxParser = factory.newSAXParser();
 		XMLFileProcessor handler=new XMLFileProcessor();
 		saxParser.parse(file, handler);
 		records=handler.getRecords();
-		
+		logger.info("Completed extracting the xml ");
 	} catch (ParserConfigurationException e) {
 		throw new RabobankAppException(e);
 	} catch (SAXException e) {

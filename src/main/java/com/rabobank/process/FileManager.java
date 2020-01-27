@@ -19,6 +19,12 @@ import com.rabobank.processor.FileProcessor;
 import com.rabobank.processor.XMLFileProcessor;
 
 @Component
+/**
+ * 
+ * Class for orchestrating the file handler and get the records from the files
+ * @author Akbar Hussain
+ *
+ */
 public class FileManager {
 	
 	Map<String, FileProcessor> processorMap=null;
@@ -36,6 +42,12 @@ public class FileManager {
 	}
 	
 	
+	/**
+	 * To get appropriate processor class for handling the file
+	 * @param ext
+	 * @return FileProcessor 
+	 * @throws RabobankAppException
+	 */
 	public FileProcessor getFileProcessor(String ext)throws RabobankAppException {
 		FileProcessor fileProcessor=null;
 		
@@ -49,7 +61,12 @@ public class FileManager {
 		return fileProcessor;
 	}
 	
-	public void getRecords(String files[]) {
+	
+	/**
+	 * To extract the bank statement from the give files. currently supporting .csv and xml
+	 * @param files
+	 */
+	public void extract(String files[]) {
 		
 		FileProcessor fileProcessor=null;
 		
@@ -81,19 +98,24 @@ public class FileManager {
 		
 		System.out.println("===================================================================");
 		
-	
+		// it will filter the records which is having the invalid end balance
 		List<BSLineItem> endBalanceMismatch=allRecords.
 				parallelStream().filter(item->item.getRecordStatus().equals(RecordStatus.INVALID_END_BALANCE)).collect(Collectors.toList());
 		
+		
+		// for grouping all elements based on reference id . it will be collected in list
 		Map<Long, List<BSLineItem>> duplicateMap=allRecords.stream().collect
 				(Collectors.groupingBy(BSLineItem::getReferenceId));
-				
+			
+		// for filtering the grouped items and collect it in single list as result
 		List<BSLineItem> result=duplicateMap.entrySet().stream().filter(entry->
 			entry.getValue().size()>1).flatMap(entry->entry.getValue().stream()).collect(Collectors.toList());
 	
 		logger.info("========================Finished !!!!!!!!!====================================");
 		
 		result.addAll(endBalanceMismatch);
+		
+		System.out.println("===============================================================================================");
 		
 		result.stream().sorted((item1,item2)->((Long)item1.getReferenceId()).compareTo(item2.getReferenceId())).forEach(item->{
 			System.out.println(item.getReferenceId()+"  "+item.getDescription());

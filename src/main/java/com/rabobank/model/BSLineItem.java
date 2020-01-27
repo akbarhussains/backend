@@ -1,7 +1,11 @@
 package com.rabobank.model;
 
 
-
+/**
+ * model class for line item in the files
+ * @author Akbar Hussain
+ *
+ */
 
 
 public class BSLineItem {

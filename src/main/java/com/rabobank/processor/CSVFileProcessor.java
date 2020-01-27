@@ -7,10 +7,9 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
-import java.util.concurrent.Future;
 
-import org.springframework.scheduling.annotation.Async;
-import org.springframework.scheduling.annotation.AsyncResult;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import com.rabobank.exception.RabobankAppException;
@@ -20,9 +19,18 @@ import com.rabobank.model.RecordStatus;
 
 
 @Component
+/**
+ * Implementation class for extracting the records from  csv file
+ * @author Jaheen Afsar
+ *
+ */
 public class CSVFileProcessor implements FileProcessor {
 
 	ProcessInfo records=null;
+	private static final Logger logger=LoggerFactory.getLogger(CSVFileProcessor.class);
+	
+	
+	
 	public CSVFileProcessor() {
 		records=new ProcessInfo();
 	}	
@@ -31,7 +39,7 @@ public class CSVFileProcessor implements FileProcessor {
 	public ProcessInfo process(String file)throws RabobankAppException{
 		
 		BufferedReader br=null;
-		
+		logger.info("Initiating extracting of the data for "+file+" ...............");
 		try {
 			br = new BufferedReader(new FileReader(new File(file)));
 		
@@ -39,8 +47,6 @@ public class CSVFileProcessor implements FileProcessor {
 		int count=0;
 		double doubleValue=0;
 		while((line=br.readLine())!=null) {
-			System.out.println("processing csv");
-			
 			String record[]=line.split(",");
 			count++;
 			if(count==1) {
@@ -48,8 +54,10 @@ public class CSVFileProcessor implements FileProcessor {
 			}
 			if(record.length>=6) {
 				BSLineItem obj=new BSLineItem();
-				
-				obj.setReferenceId(Long.parseLong(record[0]));
+				long reference=record[0].trim().isEmpty()?0:Long.parseLong(record[0].trim());
+				if(reference==0)
+					continue;
+				obj.setReferenceId(reference);
 				obj.setIbanNo(record[1]);
 				obj.setDescription(record[2]);
 				doubleValue=record[3].trim().isEmpty()?0:Double.parseDouble(record[3]);
@@ -85,6 +93,8 @@ public class CSVFileProcessor implements FileProcessor {
 				}
 			}
 		}
+		
+		logger.info("Completed processing of "+file);
 		return records;
 	}
 
